@@ -1,7 +1,9 @@
 package com.example.lab_8
 
+
 // Wizard with mana and spell power.
 class Wizard(val name: String, var mana: Int, var spellPower: Int) {
+    // Cast a spell if there is enough mana.
     fun castSpell(spell: String): Int {
         when (spell) {
             "Explosion" -> {
